@@ -34,9 +34,11 @@ class ShowResultDialogFragment : DialogFragment() {
         } else{
             mediaPlayer = MediaPlayer.create(thisActivity, R.raw.music_win)
             mediaPlayer.start()
-            if (score<=7) binding.tvWinStatus.text = "Nice, ${thisActivity.getName()}!"
-            else if (score<=9) binding.tvWinStatus.text = "Excellent, ${thisActivity.getName()}!"
-            else binding.tvWinStatus.text = "Perfect, ${thisActivity.getName()}!"
+            when {
+                (score in 6..7) -> binding.tvWinStatus.text = "Nice, ${thisActivity.getName()}!"
+                (score in 8..9) -> binding.tvWinStatus.text = "Excellent, ${thisActivity.getName()}!"
+                else -> binding.tvWinStatus.text = "Perfect, ${thisActivity.getName()}!"
+            }
             binding.tvQuestDoneStatus.text = "You got $score out of 10!"
             binding.lottieImageWin.visibility = View.VISIBLE
             binding.lottieImageLose.visibility = View.INVISIBLE
