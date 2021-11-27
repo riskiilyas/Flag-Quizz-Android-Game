@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Flag Quizz</string>
+    <string name="country_flag">Country Flag</string>
+    <string name="submit">Submit</string>
+    <string name="play">Play</string>
+    <string name="flag_quizz">Flag Quizz</string>
+    <string name="welcome">Welcome</string>
+    <string name="exit">Exit</string>
+    <string name="help">Help</string>
+    <string name="which_country_is_this">Which Country is this?</string>
+    <string name="Next">Next</string>
+    <string name="back_to_menu">Back to Menu</string>
+</resources>
