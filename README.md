@@ -1,5 +1,6 @@
 # Flag-Quizz-App
 Flag Quiz App, Android Game App
+<p color="red">Nb: This game uses internet connection to play</p>
 
 <a href="https://play.google.com/store/apps/details?id=com.keecoding.flagquizz"><img src="https://play.google.com/intl/id/badges/static/images/badges/en_badge_web_generic.png" width="200"/></a>
 
