@@ -118,22 +118,23 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tvEnterName" />
 
+
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnPlay"
                 android:layout_width="293dp"
                 android:layout_height="39dp"
-                android:layout_marginTop="16dp"
                 android:background="@drawable/btn_play_style"
                 android:contentDescription="@string/play"
                 android:fontFamily="@font/jalan_panjang"
                 android:text="@string/play"
                 android:textColor="@color/white"
                 android:textSize="16sp"
+                android:layout_marginTop="32dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/appCompatEditText" />
+                app:layout_constraintTop_toBottomOf="@+id/appCompatEditText" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </com.google.android.material.card.MaterialCardView>

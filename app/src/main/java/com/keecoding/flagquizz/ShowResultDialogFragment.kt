@@ -23,6 +23,7 @@ class ShowResultDialogFragment : DialogFragment() {
         val thisActivity = activity as QuizActivity
         val score = thisActivity.getScore()
         thisActivity.stopMusic()
+        binding.tvTimerShow.text = thisActivity.finishTimer()
 
         if (score<=5) {
             mediaPlayer = MediaPlayer.create(thisActivity, R.raw.music_lose)
